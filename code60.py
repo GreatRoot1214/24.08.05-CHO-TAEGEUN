@@ -5,3 +5,4 @@ print("3월" in _dict.values())
 print("3월" in _dict.keys())
 # print("3월" in _dict) 는 print("3월" in _dict.keys())와 같다
 
+# 수정
