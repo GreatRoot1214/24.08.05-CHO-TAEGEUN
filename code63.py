@@ -47,7 +47,15 @@ while True :
       line5[4] = "ㅇ" 
     for i in line :
       print(*i)
-
+  elif line1.count("ㅇ") == 3 :
+    print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+    break
+  elif line3.count("ㅇ") == 3 :
+    print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+    break
+  elif line4.count("ㅇ") == 3 :
+    print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+    break
   choice = random.choice(_list)
   if choice in _list :
     # time.sleep(0.5)
@@ -74,6 +82,7 @@ while True :
       line5[2] = "ㅁ"
     elif int(choice) == 9 :
       line5[4] = "ㅁ" 
+
     for i in line :
       print(*i)
     

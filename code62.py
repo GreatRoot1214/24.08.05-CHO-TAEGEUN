@@ -68,6 +68,87 @@ while True :
         a = input()
         a = ""
         break
+    elif line1.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line3.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line4.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅇ" and line3[0] == "ㅇ" and line5[0] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[2] == "ㅇ" and line3[2] == "ㅇ" and line5[2] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅇ" and line3[4] == "ㅇ" and line5[4] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅇ" and line3[2] == "ㅇ" and line5[4] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅇ" and line3[2] == "ㅇ" and line5[0] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.") 
+      a = input()
+      a = "" 
+      break
+    elif line1.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line3.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line5.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅁ" and line3[0] == "ㅁ" and line5[0] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[2] == "ㅁ" and line3[2] == "ㅁ" and line5[2] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅁ" and line3[4] == "ㅁ" and line5[4] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅁ" and line3[2] == "ㅁ" and line5[4] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅁ" and line3[2] == "ㅁ" and line5[0] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.") 
+      a = input()
+      a = "" 
+      break
+    
     choice = random.choice(_list)
     
     # time.sleep(0.5)
@@ -99,5 +180,88 @@ while True :
         line5[4] = "ㅁ"
       for i in line :
         print(*i)
-    elif len(_list) == 0 :
+    if len(_list) == 0 :
+        print("게임이 끝났습니다. 엔터를 누르시면 창을 닫습니다.")
+        a = input()
+        a = ""
         break
+    elif line1.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line3.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line4.count("ㅇ") == 3 :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅇ" and line3[0] == "ㅇ" and line5[0] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[2] == "ㅇ" and line3[2] == "ㅇ" and line5[2] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅇ" and line3[4] == "ㅇ" and line5[4] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅇ" and line3[2] == "ㅇ" and line5[4] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅇ" and line3[2] == "ㅇ" and line5[0] == "ㅇ" :
+      print("당신의 승리입니다. 축하드립니다. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line3.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line5.count("ㅁ") == 3 :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅁ" and line3[0] == "ㅁ" and line5[0] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[2] == "ㅁ" and line3[2] == "ㅁ" and line5[2] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅁ" and line3[4] == "ㅁ" and line5[4] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[0] == "ㅁ" and line3[2] == "ㅁ" and line5[4] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.")  
+      a = input()
+      a = ""
+      break
+    elif line1[4] == "ㅁ" and line3[2] == "ㅁ" and line5[0] == "ㅁ" :
+      print("당신의 패배입니다. 멍청하시네요. 엔터를 누르면 창을 종료합니다.") 
+      a = input()
+      a = "" 
+      break
