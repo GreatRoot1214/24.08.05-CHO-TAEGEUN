@@ -6,7 +6,6 @@
 # ──┼──┼──
 #   │  │
 
-
 # 사전 설정
 import random, time
 line1 = ["  ","│", "  ", "│", "  "]
@@ -151,11 +150,11 @@ while True :
     
     choice = random.choice(_list)
     
-    # time.sleep(0.5)
+    time.sleep(0.5)
     print("")
     print("다음은 제 차례입니다.")
     print("")
-    # time.sleep(0.5)
+    time.sleep(0.5)
     
 
     if choice in _list :
