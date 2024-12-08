@@ -3,6 +3,6 @@
 git init
 git add .
 git commit -m '하고싶은말'
-git branch -M main
-git remote add origin '설명'
-git push origin main
+git push origin taegeun
+
+git pull origin main
